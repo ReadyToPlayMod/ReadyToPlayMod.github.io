@@ -1,0 +1,59 @@
+{
+    "name": "ready-to-play-phandelver-intro",
+    "title": "RTP - Phandelver Intro",
+    "description": "Ready to Play Module for the intro of the Lost Mine of Phandelver Campaign",
+    "authors": [
+        {
+            "name": "Jovic",
+            "discord": "Jovic#0019"
+        },
+        {
+            "name": "Injusted",
+            "discord": "Injusted#5106"
+        }
+    ],
+    "url": "https://www.patreon.com/ready-to-play",
+    "version": "1.0.1",
+    "minimumCoreVersion": "0.8.9",
+    "scripts": [],
+    "esmodules": [
+        "./module/init.js"
+    ],
+    "packs": [
+        {
+            "name": "items",
+            "label": "Phandelver - Ambush and Hideout",
+            "path": "packs/items.db",
+            "entity": "Item"
+        },
+        {
+            "name": "monsters",
+            "label": "Phandelver - Ambush and Hideout",
+            "path": "packs/monsters.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "scenes",
+            "label": "Phandelver - Ambush and Hideout",
+            "path": "packs/scenes.db",
+            "entity": "Scene"
+        },
+        {
+            "name": "journals",
+            "label": "Phandelver - Ambush and Hideout",
+            "path": "packs/playlists.db",
+            "entity": "Playlist"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "scene-packer",
+            "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+            "type": "module"
+        }
+    ],
+    "socket": false,
+    "manifest": "",
+    "protected": false,
+    "coreTranslation": false
+}
