@@ -59,7 +59,8 @@
         }
     ],
     "socket": false,
-    "manifest": "",
+    "manifest": "https://readytoplaymod.github.io/module.json",
+    "download": "https://readytoplaymod.github.io/module.json",
     "protected": false,
     "coreTranslation": false
 }
