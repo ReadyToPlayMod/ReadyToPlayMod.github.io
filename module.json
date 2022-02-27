@@ -15,6 +15,7 @@
     "url": "https://www.patreon.com/ready-to-play",
     "version": "1.0.1",
     "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.9.0",
     "scripts": [],
     "esmodules": [
         "./module/init.js"
@@ -60,7 +61,7 @@
     ],
     "socket": false,
     "manifest": "https://readytoplaymod.github.io/module.json",
-    "download": "https://readytoplaymod.github.io/module.json",
+    "download": "https://readytoplaymod.github.io/ready-to-play-phandelver-intro.zip",
     "protected": false,
     "coreTranslation": false
 }
