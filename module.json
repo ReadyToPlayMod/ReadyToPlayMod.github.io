@@ -41,6 +41,12 @@
         {
             "name": "journals",
             "label": "Phandelver - Ambush and Hideout",
+            "path": "packs/journals.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "playlists",
+            "label": "Phandelver - Ambush and Hideout",
             "path": "packs/playlists.db",
             "entity": "Playlist"
         }
