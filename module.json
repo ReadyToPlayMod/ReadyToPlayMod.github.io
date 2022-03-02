@@ -59,9 +59,7 @@
             "type": "module"
         }
     ],
-    "socket": false,
     "manifest": "https://readytoplaymod.github.io/module.json",
     "download": "https://readytoplaymod.github.io/ready-to-play-phandelver-intro.zip",
-    "protected": false,
-    "coreTranslation": false
+    "library": "false"
 }
